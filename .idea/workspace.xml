@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60872106-81f1-49fd-8ece-4790d5130f30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/static/blood-supply-system.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/brain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/human-abdomen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/human-foot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/human-skull.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/men-chest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/men-hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/men-leg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/men-shoulder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/respiratory-system.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/two-kidneys.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/year_group.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/year_group.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DV_Project$DV_Project.coverage" NAME="DV-Project Coverage Results" MODIFIED="1553797993885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DV_Project$DV_Project.coverage" NAME="DV-Project Coverage Results" MODIFIED="1553802529805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1026598431">
@@ -35,6 +24,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
+          <entry key="json" value="1" />
           <entry key="png" value="2" />
         </counts>
       </usages-collector>
@@ -42,27 +32,30 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Image" value="2" />
+          <entry key="JSON" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="384" />
+          <entry key="json" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="384" />
+          <entry key="JSON" value="33" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="164">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -75,6 +68,27 @@
                 <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/year_group.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="484" column="1" lean-forward="true" selection-start-line="484" selection-start-column="1" selection-end-line="484" selection-end-column="1" />
+              <folding>
+                <element signature="e#57#1160#0" />
+                <element signature="e#1166#2264#0" />
+                <element signature="e#2270#3401#0" />
+                <element signature="e#3407#4516#0" />
+                <element signature="e#4522#5643#0" />
+                <element signature="e#5649#6766#0" />
+                <element signature="e#6772#7883#0" />
+                <element signature="e#7889#8996#0" />
+                <element signature="e#9002#10105#0" />
+                <element signature="e#10111#11211#0" />
               </folding>
             </state>
           </provider>
@@ -94,6 +108,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/static/year_group.json" />
       </list>
     </option>
   </component>
@@ -235,13 +250,10 @@
     <entry file="file://$PROJECT_DIR$/app/static/respiratory-system.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/brain.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="164">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -254,6 +266,28 @@
             <element signature="n#style#0;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/brain.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/year_group.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="484" column="1" lean-forward="true" selection-start-line="484" selection-start-column="1" selection-end-line="484" selection-end-column="1" />
+          <folding>
+            <element signature="e#57#1160#0" />
+            <element signature="e#1166#2264#0" />
+            <element signature="e#2270#3401#0" />
+            <element signature="e#3407#4516#0" />
+            <element signature="e#4522#5643#0" />
+            <element signature="e#5649#6766#0" />
+            <element signature="e#6772#7883#0" />
+            <element signature="e#7889#8996#0" />
+            <element signature="e#9002#10105#0" />
+            <element signature="e#10111#11211#0" />
           </folding>
         </state>
       </provider>
