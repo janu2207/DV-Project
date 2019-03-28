@@ -25,7 +25,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>DataViz Assign2</title>
+  <title>WebMD Visualization Team 25</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -104,7 +104,59 @@
 <div class="container-fluid">
   <div class="row content">
     <div class="col-sm-4 sidenav">
-      <h4>Australian Open 10 year Match Analysis</h4>
+      <h4>WebMD Visualization</h4>
+        <div class="row">
+            <div class="col-sm-4">
+                <div id ="respir" class="card" style="width:128px; box-shadow: 3px 3px 3px 3px #888888;">
+                  <img class="card-img-top" src="../static/respiratory-system.png" alt="Card image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:128px; box-shadow: 3px 3px 3px 3px #888888;">
+                  <img class="card-img-top" src="../static/blood-supply-system.png" alt="Card image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:128px; box-shadow: 3px 3px 3px 3px #888888;">
+                  <img class="card-img-top" src="../static/human-abdomen.png" alt="Card image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:128px; box-shadow: 3px 3px 3px 3px #888888;">
+                  <img class="card-img-top" src="../static/human-foot.png" alt="Card image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:128px; box-shadow: 3px 3px 3px 3px #888888;">
+                  <img class="card-img-top" src="../static/human-skull.png" alt="Card image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:128px; box-shadow: 3px 3px 3px 3px #888888;">
+                  <img class="card-img-top" src="../static/men-chest.png" alt="Card image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:128px; box-shadow: 3px 3px 3px 3px #888888;">
+                  <img class="card-img-top" src="../static/men-leg.png" alt="Card image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:128px; box-shadow: 3px 3px 3px 3px #888888;">
+                  <img class="card-img-top" src="../static/men-shoulder.png" alt="Card image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:128px; box-shadow: 3px 3px 3px 3px #888888;">
+                  <img class="card-img-top" src="../static/two-kidneys.png" alt="Card image">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:128px; box-shadow: 3px 3px 3px 3px #888888;">
+                  <img class="card-img-top" src="../static/men-hand.png" alt="Card image">
+                </div>
+            </div>
+        </div>
 		  	<div style="width:100%">
 				<canvas id="canvas" src="height: 350px"></canvas>
 			</div>
@@ -114,23 +166,17 @@
       <div id="tableHeading"></div>
       <div id="table"></div>
       <br>
-      <div>
-      	<li> Click the cirlce of each year to zoom in</li>
-      	<li> Zoomed in visualization shows qauter, semi and final matches</li>
-      	<li> By Clicking on each rounds the particular years winner-runner analysis is shown on the left side</li>
-      	<li> Each round match result is shown in the table </li>
-      </div>
     </div>
 
     <div class="col-sm-8">
-      <h4><small>Last 10 year matches</small></h4>
+      <h4><small>Diseases growth</small></h4>
       <svg style="float: center; background: rgb(246, 246, 246)" width="960" height="960"></svg>
     </div>
   </div>
 </div>
 
 <footer class="container-fluid">
-  <p>Data Visualization Assignment 2 Spring 2019</p>
+  <p>WedMD Visualization</p>
 </footer>
 
 </body>
@@ -186,9 +232,9 @@
 		var config = {
 			type: 'line',
 			data: {
-				labels: ['First Serve', 'First Point', 'Fast Serve', 'Break', 'Error'],
+				labels: ['2014', '2015', '2016', '2017', '2018'],
 				datasets: [{
-					label: 'Winner',
+					label: 'Value1',
 					backgroundColor: window.chartColors.green,
 					borderColor: window.chartColors.green,
 					data: [
@@ -202,7 +248,7 @@
 					],
 					fill: false,
 				}, {
-					label: 'Runner',
+					label: 'Value2',
 					fill: false,
 					backgroundColor: window.chartColors.red,
 					borderColor: window.chartColors.red,
@@ -221,7 +267,7 @@
 				responsive: true,
 				title: {
 					display: true,
-					text: 'Australian Open Winner vs Loser Analysis'
+					text: 'Disease trend over years'
 				},
 				tooltips: {
 					mode: 'index',
