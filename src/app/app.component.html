@@ -1,0 +1,16 @@
+<div id="wrapper">
+  <navigation [loginInfo]="loginInfo" *ngIf="loginInfo"></navigation>
+
+  <div id="page-wrapper" class="gray-bg">
+
+    <topnavbar></topnavbar>
+
+    <router-outlet></router-outlet>
+
+    <div class="footer">
+      <div>
+        <strong>MedViz</strong> Team 25 Visualization for the WebMD Dataset
+      </div>
+    </div>
+  </div>
+</div>
