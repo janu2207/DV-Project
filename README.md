@@ -1,7 +1,6 @@
-# Admin panel and UI Components for Angular.
-
+# Data Visualization Project on WebMD Dataset
 ```
-cd SalesGen
+cd DV-Project
 npm install
 npm start
 ```
