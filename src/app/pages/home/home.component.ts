@@ -4,6 +4,8 @@
 import {OnInit, Component} from "@angular/core";
 import {RestService} from '../../shared';
 import { first } from 'rxjs/operators';
+import { Router } from "@angular/router";
+import { routerNgProbeToken } from "@angular/router/src/router_module";
 
 
 @Component({
@@ -142,7 +144,7 @@ export class HomeComponent implements OnInit {
       }
     ];
     public predictions: any;
-    constructor(public restService: RestService) { }
+    constructor(public restService: RestService, public router: Router) { }
 
     ngOnInit() {
 
@@ -157,6 +159,11 @@ export class HomeComponent implements OnInit {
           },
           error => {
           });
+
+    }
+    onClick(){
+      console.log('hi')
+      this.router.navigate(['/diseases']);
 
     }
 }

@@ -1,4 +1,5 @@
 import {HomeComponent} from "./pages/home/home.component";
+import { DiseaseListComponent } from "./pages/disease-list/disease-list.component";
 
 export const appRoutes=[
     {
@@ -14,4 +15,8 @@ export const appRoutes=[
         path: 'others',
         loadChildren:'./pages/others/others.module#OthersModule',
     },
+    {
+      path: 'diseases',
+      component: DiseaseListComponent
+  }
 ];

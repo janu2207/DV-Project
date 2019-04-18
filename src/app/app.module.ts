@@ -10,13 +10,15 @@ import {RouterModule} from '@angular/router';
 import {appRoutes} from './app.routes';
 import {HomeComponent} from './pages/home/home.component';
 import { RestService } from './shared';
+import { DiseaseListComponent } from './pages/disease-list/disease-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Navigation,
     Topnavbar,
-    HomeComponent
+    HomeComponent,
+    DiseaseListComponent
   ],
   imports: [
     BrowserModule,
