@@ -1,5 +1,6 @@
 import {HomeComponent} from "./pages/home/home.component";
 import { DiseaseListComponent } from "./pages/disease-list/disease-list.component";
+import { MapDiseaseComponent } from "./pages/map-disease/map-disease.component";
 
 export const appRoutes=[
     {
@@ -18,5 +19,10 @@ export const appRoutes=[
     {
       path: 'diseases',
       component: DiseaseListComponent
-  }
+  },
+  {
+    path: 'map',
+    component: MapDiseaseComponent
+},
+
 ];
