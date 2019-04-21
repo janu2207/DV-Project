@@ -12,7 +12,6 @@ import {HomeComponent} from './pages/home/home.component';
 import { RestService } from './shared';
 import { DiseaseListComponent } from './pages/disease-list/disease-list.component';
 import { MapDiseaseComponent } from './pages/map-disease/map-disease.component';
-import { WordCloudComponent } from './word-cloud/word-cloud.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,7 @@ import { WordCloudComponent } from './word-cloud/word-cloud.component';
     HomeComponent,
     DiseaseListComponent,
     MapDiseaseComponent,
-    WordCloudComponent,
+
   ],
   imports: [
     BrowserModule,

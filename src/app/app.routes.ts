@@ -25,4 +25,5 @@ export const appRoutes=[
     component: MapDiseaseComponent
 },
 
+
 ];
