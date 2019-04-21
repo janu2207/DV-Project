@@ -12,6 +12,8 @@ import {HomeComponent} from './pages/home/home.component';
 import { RestService } from './shared';
 import { DiseaseListComponent } from './pages/disease-list/disease-list.component';
 import { MapDiseaseComponent } from './pages/map-disease/map-disease.component';
+import { WordCloudComponent } from './pages/word-cloud/word-cloud.component';
+import { TreeComponent } from './pages/tree/tree.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { MapDiseaseComponent } from './pages/map-disease/map-disease.component';
     HomeComponent,
     DiseaseListComponent,
     MapDiseaseComponent,
+    WordCloudComponent,
+    TreeComponent,
 
   ],
   imports: [

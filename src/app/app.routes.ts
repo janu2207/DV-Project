@@ -1,6 +1,8 @@
 import {HomeComponent} from "./pages/home/home.component";
 import { DiseaseListComponent } from "./pages/disease-list/disease-list.component";
 import { MapDiseaseComponent } from "./pages/map-disease/map-disease.component";
+import { WordCloudComponent } from "./pages/word-cloud/word-cloud.component";
+import { TreeComponent } from "./pages/tree/tree.component";
 
 export const appRoutes=[
     {
@@ -24,6 +26,16 @@ export const appRoutes=[
     path: 'map',
     component: MapDiseaseComponent
 },
+{
+  path: 'wordCloud',
+  component: WordCloudComponent
+},
+{
+  path: 'tree',
+  component: TreeComponent
+},
+
+
 
 
 ];
