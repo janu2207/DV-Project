@@ -22,6 +22,7 @@ import {ellipseForce} from 'd3-ellipse-force'
 export class HomeComponent implements OnInit {
 
     public predictions: any;
+    public diseaseList;
     constructor(public restService: RestService, public router: Router) { }
     simulation:any
 
@@ -89,10 +90,7 @@ export class HomeComponent implements OnInit {
             .text(function(d) { return d.key; })
           .on("mouseover", function(d, i){
             console.log(d.text,d.value);
-          })
-          ;
-
-
+          });
 
         }
         //tree
@@ -104,7 +102,7 @@ console.log(graph)
           width = +svg.attr("width"),
           height = +svg.attr("height");
 
-      var color = d3.scaleOrdinal();
+      var color = d3.scaleOrdinal(schemeCategory10);
 
       var nd;
       for (var i=0; i<graph.nodes.length; i++) {
@@ -453,11 +451,7 @@ svg.append("g")
 // Add the Y Axis
 svg.append("g")
 .attr("class", "axis")
-.call(d3.axisLeft(y));
-
-
-
-    }
+.call(d3.axisLeft(y));}
 
     getDisease(part){
         this.restService.get_diseases(part, '', '')
@@ -469,6 +463,4 @@ svg.append("g")
             error => {
             });
     }
-
-
 }
