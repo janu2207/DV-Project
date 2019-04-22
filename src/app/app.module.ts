@@ -14,7 +14,6 @@ import { DiseaseListComponent } from './pages/disease-list/disease-list.componen
 import { MapDiseaseComponent } from './pages/map-disease/map-disease.component';
 import { WordCloudComponent } from './pages/word-cloud/word-cloud.component';
 import { TreeComponent } from './pages/tree/tree.component';
-import { SeasonalTrendComponent } from './seasonal-trend/seasonal-trend.component';
 
 
 
@@ -37,7 +36,7 @@ import { LinegraphComponent } from './pages/linegraph/linegraph.component';
     MapDiseaseComponent,
     WordCloudComponent,
     TreeComponent,
-    SeasonalTrendComponent,
+
     LinegraphComponent,
 
   ],
