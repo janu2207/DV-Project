@@ -3,6 +3,8 @@ import { DiseaseListComponent } from "./pages/disease-list/disease-list.componen
 import { MapDiseaseComponent } from "./pages/map-disease/map-disease.component";
 import { WordCloudComponent } from "./pages/word-cloud/word-cloud.component";
 import { TreeComponent } from "./pages/tree/tree.component";
+import { SeasonalTrendComponent } from "./seasonal-trend/seasonal-trend.component";
+import { LinegraphComponent } from "./pages/linegraph/linegraph.component";
 
 export const appRoutes=[
     {
@@ -33,6 +35,14 @@ export const appRoutes=[
 {
   path: 'tree',
   component: TreeComponent
+},
+{
+  path: 'line',
+  component: SeasonalTrendComponent
+},
+{
+  path: 'linegraph',
+  component: LinegraphComponent
 },
 
 

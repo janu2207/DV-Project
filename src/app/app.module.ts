@@ -14,6 +14,18 @@ import { DiseaseListComponent } from './pages/disease-list/disease-list.componen
 import { MapDiseaseComponent } from './pages/map-disease/map-disease.component';
 import { WordCloudComponent } from './pages/word-cloud/word-cloud.component';
 import { TreeComponent } from './pages/tree/tree.component';
+import { SeasonalTrendComponent } from './seasonal-trend/seasonal-trend.component';
+
+
+
+// Load FusionCharts
+import * as FusionCharts from 'fusioncharts';
+// Load Charts module
+import * as Charts from 'fusioncharts/fusioncharts.charts';
+// Load themes
+import * as FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
+import { LinegraphComponent } from './pages/linegraph/linegraph.component';
+
 
 @NgModule({
   declarations: [
@@ -25,6 +37,8 @@ import { TreeComponent } from './pages/tree/tree.component';
     MapDiseaseComponent,
     WordCloudComponent,
     TreeComponent,
+    SeasonalTrendComponent,
+    LinegraphComponent,
 
   ],
   imports: [
@@ -32,7 +46,9 @@ import { TreeComponent } from './pages/tree/tree.component';
     FormsModule,
     HttpModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+
+
   ],
   providers: [RestService],
   bootstrap: [AppComponent]
