@@ -19,8 +19,18 @@ export class RestService {
       }));
   }
 
+  get_map(part, type, topic) {
+    return this.http.post<any>(this.url + '/get_map', { part: part, type : type, topic : topic})
+      .pipe(map(result => {
+        console.log(result)
+        return result;
+      }));
+  }
+
   getDiseaseList(diseaseName:String){
    return this.http.post('http://localhost:5000/get_disease',diseaseName);
   }
+
+
 
 }
