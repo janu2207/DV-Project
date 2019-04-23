@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
 
 
     ngOnInit() {
-        this.map_info_graph();
+
     }
 
 
@@ -200,8 +200,8 @@ export class HomeComponent implements OnInit {
         }
 
         var svg_location = "#word_cloud";
-        var width = 900
-        var height = 900;
+        var width = 600;
+        var height = 600;
 
         var fill = schemeCategory10;
 
@@ -390,6 +390,7 @@ export class HomeComponent implements OnInit {
           .subscribe(
             data => {
               console.log(data);
+              this.map_info_graph();
               this.zoom_bubble_info(data);
             },
             error => {

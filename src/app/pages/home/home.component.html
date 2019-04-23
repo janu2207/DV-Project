@@ -56,27 +56,54 @@
         </div>
       </div>
     </div>
-</div>
+    <div *ngIf="selected_part" class="row">
+      <div class="col-lg-12">
+        <div class="ibox float-e-margins">
+          <div class="ibox-content">
+            <h4>Famous Topics for </h4>
+            <svg id="bubble" style="float: center; background: rgb(33,146,252)" width="1140" height="960"></svg>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<div *ngIf="selected_part" class="row">
-    <h4>Famous Topics for </h4>
-    <svg id="bubble" style="float: center; background: rgb(33,146,252)" width="1140" height="960"></svg>
-</div>
+    <div *ngIf="selected_part"  class="row">
+      <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+          <div class="ibox-title">
+            <h5>Demographics of Fatal Diseases for {{selected_part}}</h5>
+          </div>
+          <div class="ibox-content">
+              <div class="map"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<div class="row">
-    <div class="col-sm-12">
-    <div class="map"></div>
+    <div *ngIf="selected_part"  class="row wrapper wrapper-content animated fadeInRight">
+      <div class="col-sm-6" >
+          <div class="ibox float-e-margins">
+            <div class="ibox-title">
+              <h5>Relation between topics</h5>
+            </div>
+             <div class="ibox-content">
+                <svg id="network" width="600" height="600"></svg>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-6" >
+        <div class="ibox float-e-margins">
+          <div class="ibox-title">
+            <h5>Word Cloud</h5>
+          </div>
+          <div class="ibox-content">
+            <div id="word_cloud" width="600" height="600"></div>
+          </div>
+        </div>
+      </div>
     </div>
 </div>
 
-<div id= "infographic" class="row">
-    <div class="col-sm-6" >
-        <svg id="network" width="1200" height="600"></svg>
-    </div>
-    <div class="col-sm-6" >
-      <div id="word_cloud"></div>
-    </div>
-</div>
 
 
 
