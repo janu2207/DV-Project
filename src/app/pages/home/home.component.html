@@ -58,35 +58,24 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm-12" >
+<div *ngIf="selected_part" class="row">
+    <h4>Famous Topics for </h4>
+    <svg id="bubble" style="float: center; background: rgb(33,146,252)" width="1140" height="960"></svg>
+</div>
 
+<div class="row">
+    <div class="col-sm-12">
     <div class="map"></div>
     </div>
 </div>
 
-<div class="row">
-  <div class="col-sm-12">
-      <div class="disease"></div>
-  </div>
-</div>
-
-      <div class="row">
-          <div class="col-sm-12" >
-              <svg width="1200" height="600"></svg>
-
-          </div>
-      </div>
-
-<div class="row">
-  <div class="col-sm-6" >
-    <div id="word_cloud"></div>
-</div>
-
-<div class="col-sm-6" >
-    <div class="line"></div>
-</div>
-
+<div id= "infographic" class="row">
+    <div class="col-sm-6" >
+        <svg id="network" width="1200" height="600"></svg>
+    </div>
+    <div class="col-sm-6" >
+      <div id="word_cloud"></div>
+    </div>
 </div>
 
 

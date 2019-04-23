@@ -13,7 +13,7 @@ export class RestService {
   }
 
   get_diseases(part, type, topic) {
-    return this.http.post<any>(this.url + '/get_diseases', { part: part, type : type, topic : topic})
+    return this.http.post<any>(this.url + '/get_disease', { part: part, type : type, topic : topic})
       .pipe(map(result => {
         return result;
       }));
@@ -27,10 +27,18 @@ export class RestService {
       }));
   }
 
-  getDiseaseList(diseaseName:String){
-   return this.http.post('http://localhost:5000/get_disease',diseaseName);
+  get_network(key) {
+    return this.http.post<any>(this.url + '/get_network', { topic: key})
+      .pipe(map(result => {
+        return result;
+      }));
   }
 
-
+  get_word_cloud(key) {
+    return this.http.post<any>(this.url + '/get_word_cloud', { topic: key})
+      .pipe(map(result => {
+        return result;
+      }));
+  }
 
 }
