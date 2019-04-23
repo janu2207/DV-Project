@@ -241,12 +241,13 @@ export class HomeComponent implements OnInit {
 						   .append("path")
 						   .attr("d", path)
 						   .style("fill", function(d) {
-                 console.log(d.properties.value)
 							   		return colorMap(d.properties.value);
 						   })
 						   .append("title")
 						   .text(function(d) {
-						         return d.properties.name + ": " + d.properties.value;
+                 var s = "In "+ d.properties.name+ "In 2015 age adjusted data of lung diseases was"+d.ageAdjusted+"per 100,000 people"+"/n"+
+                 d.properties.value+ " cancel cases was reported"
+						         return s;
 						   });
 
 
