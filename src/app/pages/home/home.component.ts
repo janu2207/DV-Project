@@ -342,7 +342,7 @@ export class HomeComponent implements OnInit {
 
         //Load in GeoJSON data
         var json;
-        this.restService.get_map("brain","none","none").subscribe((data)=>{
+        this.restService.get_map(this.selected_part,"none","none").subscribe((data)=>{
           json = data;
           console.log(json)
           //Bind data and create one path per GeoJSON feature
