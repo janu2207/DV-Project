@@ -1,7 +1,7 @@
 /**
  * Created by Ashok prakash
  */
-import {OnInit, Component} from "@angular/core";
+import {OnInit, NgZone, Component, OnDestroy, ViewChild, ElementRef, AfterViewInit} from "@angular/core";
 import {RestService} from '../../shared';
 import { first } from 'rxjs/operators';
 import { Router } from "@angular/router";
@@ -14,6 +14,8 @@ import * as cloud from 'd3-cloud';
 import {schemeCategory10} from 'd3-scale-chromatic'
 import {ellipseForce} from 'd3-ellipse-force'
 import * as $ from 'jquery'
+import { interval } from 'rxjs/observable/interval';
+import { map } from 'rxjs/operators'
 
 @Component({
     selector: 'home',
@@ -21,26 +23,54 @@ import * as $ from 'jquery'
     styleUrls: ['./home.component.css']
 
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
 
     public predictions: any;
     public diseaseList;
-    constructor(public restService: RestService, public router: Router) { }
+    constructor(public restService: RestService, public router: Router, private ngZone: NgZone) { }
     selected_part:any;
+    ang_answers : any;
+
+    @ViewChild('#bubbleDiv') bubbleDiv: ElementRef;
+
+    ngOnDestroy() {
+      window.my.namespace.publicFunc = null;
+    }
 
 
-    ngOnInit() {
+    ngAfterViewInit() {
 
     }
 
 
-  zoom_bubble_info(data){
-      if(document.getElementById("#bubble") != null) {
-        document.getElementById("#bubble").innerHTML = "";
+    ngOnInit() {
+      window.my = window.my || {};
+      window.my.namespace = window.my.namespace || {};
+      window.my.namespace.publicFunc = this.publicFunc.bind(this);
+    }
+
+    publicFunc(data) {
+      this.ngZone.run(() => this.privateFunc(data));
+    }
+
+    privateFunc(data) {
+      this.ang_answers = JSON.parse(data);
+    }
+
+    zoom_bubble_info(data){
+
+      var part_selected = this.selected_part;
+      if(document.getElementById("#bubbleDiv") != null) {
+        document.getElementById("#bubbleDiv").innerHTML = "";
       }
 
-      if(document.getElementById("#infographic") != null) {
-        document.getElementById("#infographic").innerHTML = "";
+      if(document.getElementById("#network_content") != null) {
+        document.getElementById("#network_content").innerHTML = "";
+      }
+
+      if(document.getElementById("#word_cloud_content") != null) {
+        console.log("Getting cleared");
+        document.getElementById("#word_cloud_content").innerHTML = "";
       }
       var svg = d3.select("#bubble"),
         margin = 20,
@@ -97,6 +127,9 @@ export class HomeComponent implements OnInit {
       var node = g.selectAll("circle, text");
       svg.style("background", "rgb(250, 250, 250)").on("click", function() {zoom(root);});
       zoomTo([root.x, root.y, root.r * 2 + margin]);
+
+      console.log(this.bubbleDiv);
+      this.bubbleDiv.nativeElement.scrollIntoView();
 
       function tree_info_graph(data){
         var graph = JSON.parse(data);
@@ -201,7 +234,7 @@ export class HomeComponent implements OnInit {
 
         var svg_location = "#word_cloud";
         var width = 600;
-        var height = 600;
+        var height = 300;
 
         var fill = schemeCategory10;
 
@@ -267,6 +300,17 @@ export class HomeComponent implements OnInit {
               type: "GET",
               success: function(data){
                 word_cloud_info_graph(data);
+              },
+              error: function(error){
+              }
+            });
+
+            // get_answer
+            $.ajax({
+              url: 'http://localhost:5000/get_content?part='+part_selected+'&type='+d.parent.data.name.toLowerCase()+'&topic='+d.data.topicId,
+              type: "GET",
+              success: function(data){
+                window.my.namespace.publicFunc(data);
               },
               error: function(error){
               }
@@ -344,7 +388,6 @@ export class HomeComponent implements OnInit {
         var json;
         this.restService.get_map(this.selected_part,"none","none").subscribe((data)=>{
           json = data;
-          console.log(json)
           //Bind data and create one path per GeoJSON feature
           svg.selectAll("path")
             .data(json.features)
@@ -352,7 +395,6 @@ export class HomeComponent implements OnInit {
             .append("path")
             .attr("d", path)
             .style("fill", function(d) {
-              console.log(d.properties.value)
               return colorMap(d.properties.value);
             })
             .append("title")

@@ -20,15 +20,15 @@
               <span>
                         <img alt="image" class="img-circle" width="240px"
                              src="../../../assets/img/brain.jpg" />
-                    </span>
+              </span>
             </button>
-            <button (click)="getDisease('respiratory')" style="width:250px; height:250px" class="btn btn-danger  dim btn-large-dim btn-outline" type="button">
+            <button (click)="getDisease('lungs')" style="width:250px; height:250px" class="btn btn-danger  dim btn-large-dim btn-outline" type="button">
               <span>
                         <img alt="image" class="img-circle" width="240px"
                              src="../../../assets/img/respiratory.png" />
                     </span>
             </button>
-            <button (click)="getDisease('foot')" style="width:250px; height:250px" class="btn btn-primary  dim btn-large-dim btn-outline" type="button">
+            <button (click)="getDisease('leg')" style="width:250px; height:250px" class="btn btn-primary  dim btn-large-dim btn-outline" type="button">
               <span>
                         <img alt="image" class="img-circle" width="240px"
                              src="../../../assets/img/foot.jpeg" />
@@ -46,7 +46,7 @@
                              src="../../../assets/img/shoulder.png" />
                     </span>
             </button>
-            <button (click)="getDisease('kidney')" style="width:250px; height:250px" class="btn btn-danger  dim btn-large-dim btn-outline" type="button">
+            <button (click)="getDisease('kidneys')" style="width:250px; height:250px" class="btn btn-danger  dim btn-large-dim btn-outline" type="button">
               <span>
                         <img alt="image" class="img-circle" width="240px"
                              src="../../../assets/img/kidney.png" />
@@ -56,10 +56,10 @@
         </div>
       </div>
     </div>
-    <div *ngIf="selected_part" class="row">
+    <div [hidden]= "!selected_part" class="row bubbleDiv">
       <div class="col-lg-12">
         <div class="ibox float-e-margins">
-          <div class="ibox-content">
+          <div class="ibox-content" >
             <h4>Famous Topics for </h4>
             <svg id="bubble" style="float: center; background: rgb(33,146,252)" width="1140" height="960"></svg>
           </div>
@@ -86,8 +86,8 @@
             <div class="ibox-title">
               <h5>Relation between topics</h5>
             </div>
-             <div class="ibox-content">
-                <svg id="network" width="600" height="600"></svg>
+             <div id = "network_content" class="ibox-content">
+                <svg id="network" width="600" height="300"></svg>
             </div>
           </div>
       </div>
@@ -96,9 +96,73 @@
           <div class="ibox-title">
             <h5>Word Cloud</h5>
           </div>
-          <div class="ibox-content">
-            <div id="word_cloud" width="600" height="600"></div>
+          <div id = "word_cloud_content" class="ibox-content">
+            <div id="word_cloud" width="600" height="300"></div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div  *ngIf="ang_answers" class="row">
+      <div class="col-lg-6">
+        <div class="ibox float-e-margins">
+          <div class="ibox-title">
+            <h5>Top questions and Answers for {{selected_part}} </h5>
+          </div>
+            <div class="ibox-content">
+              <ul class="timeline">
+                <li *ngFor="let answer of ang_answers[0]">
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <div class="row">
+                        <div class="col-9">
+                          <h4 class="timeline-title"> {{answer.question.questionTitle}} </h4>
+                        </div>
+                      </div>
+                      <p><small class="text-muted"><i class="fa fa-clock-o"></i> {{answer.answered_member.memberName}},
+                        works as {{answer.answered_member.memberJob}} at {{answer.answered_member.memberWorkplace}}
+                      </small>
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      {{answer.answerContent}}
+                    </div>
+                    <div class="timeline-sidebar">
+                      <h4 class="text-primary fa fa-thumbs-up"></h4> {{answer.answerHelpfulNum}}
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-6">
+          <div class="ibox float-e-margins">
+              <div class="ibox-content">
+              <ul class="timeline">
+                <li class="timeline-inverted" *ngFor="let answer of ang_answers[1]">
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <div class="row">
+                        <div class="col-9">
+                          <h4 class="timeline-title"> {{answer.question.questionTitle}} </h4>
+                        </div>
+                      </div>
+                      <p><small class="text-muted"><i class="fa fa-clock-o"></i> {{answer.answered_member.memberName}},
+                        works as {{answer.answered_member.memberJob}} at {{answer.answered_member.memberWorkplace}}
+                      </small>
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      {{answer.answerContent}}
+                    </div>
+                    <div class="timeline-sidebar">
+                      <h4 class="text-primary fa fa-thumbs-up"></h4> {{answer.answerHelpfulNum}}
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
         </div>
       </div>
     </div>
