@@ -357,7 +357,7 @@ export class HomeComponent implements OnInit {
             })
             .append("title")
             .text(function(d) {
-              return d.properties.name + ": " + d.properties.value;
+              return d.properties.text;
             });
 
           //Adding legend
