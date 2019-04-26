@@ -369,10 +369,10 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
         var legend_labels = ["0-50", "50-300", "300-500", "500-1000", "1000-2000",">2000"]
 
         //Define scale to sort data values into buckets of color
-        var color_domain = [0, 50, 300,500,1000, 2000,2001];
+        var color_domain = [50, 300,500,1000, 2000];
         var colorMap = d3.scaleThreshold()
           .domain(color_domain)
-          .range(['rgb(117, 69, 102)','rgb(234, 136, 223)','rgb(215,181,216)','rgb(223,101,176)','rgb(221,28,119)','rgb(152,10,67)','rgb(234, 135, 180)']);
+          .range(['rgb(229, 188, 223)','rgb(239, 167, 229)','rgb(234, 136, 220)','rgb(234, 107, 216)','rgb(221,28,119)','rgb(132, 2, 85)']);
         //Colors taken from http://colorbrewer2.org/
 
         //Create SVG element
@@ -404,7 +404,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
 
           //Adding legend
           var legend = svg.selectAll("g.legend")
-            .data([50, 300, 500, 1000, 2000,2001])
+            .data([0,50, 300, 500, 1000, 2000])
             .enter().append("g")
             .attr("class", "legend");
 
