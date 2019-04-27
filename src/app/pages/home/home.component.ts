@@ -29,6 +29,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
     public diseaseList;
     constructor(public restService: RestService, public router: Router, private ngZone: NgZone) { }
     selected_part:any;
+    selected_topic: any;
     ang_answers : any;
 
     @ViewChild('#bubbleDiv') bubbleDiv: ElementRef;
@@ -49,12 +50,18 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
       window.my.namespace.publicFunc = this.publicFunc.bind(this);
     }
 
-    publicFunc(data) {
-      this.ngZone.run(() => this.privateFunc(data));
+    publicFunc(setNull, data, topic) {
+      this.ngZone.run(() => this.privateFunc(setNull, data, topic));
     }
 
-    privateFunc(data) {
-      this.ang_answers = JSON.parse(data);
+    privateFunc(setNull, data, topic) {
+      if (!setNull) {
+        this.ang_answers = JSON.parse(data);
+        this.selected_topic = topic;
+      }else{
+        this.selected_topic = null;
+        this.ang_answers = [];
+      }
     }
 
     zoom_bubble_info(data){
@@ -281,6 +288,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
 
 
       function zoom(d) {
+          window.my.namespace.publicFunc(true, data, d.data.name);
           var focus0 = focus; focus = d;
           console.log(d);
           if(d.data.children == null){
@@ -310,7 +318,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
               url: 'http://localhost:5000/get_content?part='+part_selected+'&type='+d.parent.data.name.toLowerCase()+'&topic='+d.data.topicId,
               type: "GET",
               success: function(data){
-                window.my.namespace.publicFunc(data);
+                window.my.namespace.publicFunc(false, data, d.data.name);
               },
               error: function(error){
               }

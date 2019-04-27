@@ -60,7 +60,7 @@
       <div class="col-lg-12">
         <div class="ibox float-e-margins">
           <div class="ibox-content" >
-            <h4>Famous Topics for </h4>
+            <h4>Famous Topics for {{selected_part}} </h4>
             <svg id="bubble" style="float: center; background: rgb(33,146,252)" width="1140" height="960"></svg>
           </div>
         </div>
@@ -80,7 +80,7 @@
       </div>
     </div>
 
-    <div *ngIf="selected_part"  class="row wrapper wrapper-content animated fadeInRight">
+    <div *ngIf="selected_topic"  class="row wrapper wrapper-content animated fadeInRight">
       <div class="col-sm-6" >
           <div class="ibox float-e-margins">
             <div class="ibox-title">
@@ -107,7 +107,7 @@
       <div class="col-lg-6">
         <div class="ibox float-e-margins">
           <div class="ibox-title">
-            <h5>Top questions and Answers for {{selected_part}} </h5>
+            <h5>Top questions and Answers for {{selected_topic}} </h5>
           </div>
             <div class="ibox-content">
               <ul class="timeline">
