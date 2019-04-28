@@ -1,0 +1,1058 @@
+{
+  "2009Final": {
+    "winner": [
+      64,
+      66,
+      196,
+      44,
+      41
+    ],
+    "loser": [
+      52,
+      73,
+      204,
+      32,
+      64
+    ],
+    "data": {
+      "Rafael Nadal vs Roger Federer": {
+        "player1": "Rafael Nadal",
+        "player2": "Roger Federer",
+        "winner": "Rafael Nadal",
+        "result": "7-5 3-6 7-6(3) 3-6 6-2"
+      }
+    }
+  },
+  "2009semi": {
+    "winner": [
+      140,
+      155,
+      408,
+      51,
+      40
+    ],
+    "loser": [
+      134,
+      141,
+      444,
+      50,
+      94
+    ],
+    "data": {
+      "Rafael Nadal vs Fernando Verdasco": {
+        "player1": "Rafael Nadal",
+        "player2": "Fernando Verdasco",
+        "winner": "Rafael Nadal",
+        "result": "6-7(4) 6-4 7-6(2) 6-7(1) 6-4"
+      },
+      "Roger Federer vs Andy Roddick": {
+        "player1": "Roger Federer",
+        "player2": "Andy Roddick",
+        "winner": "Roger Federer",
+        "result": "6-2 7-5 7-5"
+      }
+    }
+  },
+  "2009quarter": {
+    "winner": [
+      286,
+      315,
+      847,
+      264,
+      76
+    ],
+    "loser": [
+      241,
+      252,
+      831,
+      158,
+      144
+    ],
+    "data": {
+      "Rafael Nadal vs Gilles Simon": {
+        "player1": "Rafael Nadal",
+        "player2": "Gilles Simon",
+        "winner": "Rafael Nadal",
+        "result": "6-2 7-5 7-5"
+      },
+      "Fernando Verdasco vs Jo-Wilfried Tsonga": {
+        "player1": "Fernando Verdasco",
+        "player2": "Jo-Wilfried Tsonga",
+        "winner": "Fernando Verdasco",
+        "result": "7-6(2) 3-6 6-3 6-2"
+      },
+      "Roger Federer vs Juan Martin Del Potro": {
+        "player1": "Roger Federer",
+        "player2": "Juan Martin Del Potro",
+        "winner": "Roger Federer",
+        "result": "6-3 6-0 6-0"
+      },
+      "Andy Roddick vs Novak Djokovic": {
+        "player1": "Andy Roddick",
+        "player2": "Novak Djokovic",
+        "winner": "Andy Roddick",
+        "result": "6-7(3) 6-4 6-2 2-1 ret."
+      }
+    }
+  },
+  "2010Final": {
+    "winner": [
+      66,
+      72,
+      209,
+      33,
+      42
+    ],
+    "loser": [
+      57,
+      69,
+      214,
+      25,
+      36
+    ],
+    "data": {
+      "Roger Federer vs Andy Murray": {
+        "player1": "Roger Federer",
+        "player2": "Andy Murray",
+        "winner": "Roger Federer",
+        "result": "6-3 6-4 7-6(11)"
+      }
+    }
+  },
+  "2010semi": {
+    "winner": [
+      127,
+      160,
+      415,
+      81,
+      42
+    ],
+    "loser": [
+      112,
+      139,
+      412,
+      33,
+      81
+    ],
+    "data": {
+      "Roger Federer vs Jo-Wilfried Tsonga": {
+        "player1": "Roger Federer",
+        "player2": "Jo-Wilfried Tsonga",
+        "winner": "Roger Federer",
+        "result": "6-2 6-3 6-2"
+      },
+      "Andy Murray vs Marin Cilic": {
+        "player1": "Andy Murray",
+        "player2": "Marin Cilic",
+        "winner": "Andy Murray",
+        "result": "3-6 6-4 6-4 6-2"
+      }
+    }
+  },
+  "2010quarter": {
+    "winner": [
+      233,
+      287,
+      847,
+      202,
+      176
+    ],
+    "loser": [
+      261,
+      258,
+      825,
+      119,
+      182
+    ],
+    "data": {
+      "Roger Federer vs Nikolay Davydenko": {
+        "player1": "Roger Federer",
+        "player2": "Nikolay Davydenko",
+        "winner": "Roger Federer",
+        "result": "2-6 6-3 6-0 7-5"
+      },
+      "Jo-Wilfried Tsonga vs Novak Djokovic": {
+        "player1": "Jo-Wilfried Tsonga",
+        "player2": "Novak Djokovic",
+        "winner": "Jo-Wilfried Tsonga",
+        "result": "7-6(8) 6-7(5) 1-6 6-3 6-1"
+      },
+      "Marin Cilic vs Andy Roddick": {
+        "player1": "Marin Cilic",
+        "player2": "Andy Roddick",
+        "winner": "Marin Cilic",
+        "result": "7-6(4) 6-3 3-6 2-6 6-3"
+      },
+      "Andy Murray vs Rafael Nadal": {
+        "player1": "Andy Murray",
+        "player2": "Rafael Nadal",
+        "winner": "Andy Murray",
+        "result": "6-3 7-6(2) 3-0 ret."
+      }
+    }
+  },
+  "2011Final": {
+    "winner": [
+      67,
+      70,
+      208,
+      39,
+      33
+    ],
+    "loser": [
+      53,
+      64,
+      216,
+      75,
+      47
+    ],
+    "data": {
+      "Novak Djokovic vs Andy Murray": {
+        "player1": "Novak Djokovic",
+        "player2": "Andy Murray",
+        "winner": "Novak Djokovic",
+        "result": "6-4 6-2 6-3"
+      }
+    }
+  },
+  "2011semi": {
+    "winner": [
+      129,
+      148,
+      418,
+      91,
+      98
+    ],
+    "loser": [
+      127,
+      131,
+      401,
+      58,
+      78
+    ],
+    "data": {
+      "Andy Murray vs David Ferrer": {
+        "player1": "Andy Murray",
+        "player2": "David Ferrer",
+        "winner": "Andy Murray",
+        "result": "4-6 7-6(2) 6-1 7-6(2)"
+      },
+      "Novak Djokovic vs Roger Federer": {
+        "player1": "Novak Djokovic",
+        "player2": "Roger Federer",
+        "winner": "Novak Djokovic",
+        "result": "7-6(3) 7-5 6-4"
+      }
+    }
+  },
+  "2011quarter": {
+    "winner": [
+      271,
+      301,
+      827,
+      207,
+      111
+    ],
+    "loser": [
+      235,
+      254,
+      850,
+      163,
+      173
+    ],
+    "data": {
+      "David Ferrer vs Rafael Nadal": {
+        "player1": "David Ferrer",
+        "player2": "Rafael Nadal",
+        "winner": "David Ferrer",
+        "result": "6-4 6-2 6-3"
+      },
+      "Andy Murray vs Alexandr Dolgopolov": {
+        "player1": "Andy Murray",
+        "player2": "Alexandr Dolgopolov",
+        "winner": "Andy Murray",
+        "result": "7-5 6-3 6-7(3) 6-3"
+      },
+      "Novak Djokovic vs Tomas Berdych": {
+        "player1": "Novak Djokovic",
+        "player2": "Tomas Berdych",
+        "winner": "Novak Djokovic",
+        "result": "6-1 7-6(5) 6-1"
+      },
+      "Roger Federer vs Stanislas Wawrinka": {
+        "player1": "Roger Federer",
+        "player2": "Stanislas Wawrinka",
+        "winner": "Roger Federer",
+        "result": "6-1 6-3 6-3"
+      }
+    }
+  },
+  "2012Final": {
+    "winner": [
+      59,
+      68,
+      202,
+      35,
+      69
+    ],
+    "loser": [
+      67,
+      66,
+      204,
+      67,
+      71
+    ],
+    "data": {
+      "Novak Djokovic vs Rafael Nadal": {
+        "player1": "Novak Djokovic",
+        "player2": "Rafael Nadal",
+        "winner": "Novak Djokovic",
+        "result": "5-7 6-4 6-2 6-7(5) 7-5"
+      }
+    }
+  },
+  "2012semi": {
+    "winner": [
+      138,
+      135,
+      397,
+      80,
+      103
+    ],
+    "loser": [
+      127,
+      130,
+      422,
+      59,
+      149
+    ],
+    "data": {
+      "Novak Djokovic vs Andy Murray": {
+        "player1": "Novak Djokovic",
+        "player2": "Andy Murray",
+        "winner": "Novak Djokovic",
+        "result": "6-3 3-6 6-7(4) 6-1 7-5"
+      },
+      "Rafael Nadal vs Roger Federer": {
+        "player1": "Rafael Nadal",
+        "player2": "Roger Federer",
+        "winner": "Rafael Nadal",
+        "result": "6-7(5) 6-2 7-6(5) 6-4"
+      }
+    }
+  },
+  "2012quarter": {
+    "winner": [
+      225,
+      314,
+      810,
+      182,
+      118
+    ],
+    "loser": [
+      254,
+      246,
+      811,
+      102,
+      158
+    ],
+    "data": {
+      "Novak Djokovic vs David Ferrer": {
+        "player1": "Novak Djokovic",
+        "player2": "David Ferrer",
+        "winner": "Novak Djokovic",
+        "result": "6-4 7-6(4) 6-1"
+      },
+      "Andy Murray vs Kei Nishikori": {
+        "player1": "Andy Murray",
+        "player2": "Kei Nishikori",
+        "winner": "Andy Murray",
+        "result": "6-3 6-3 6-1"
+      },
+      "Roger Federer vs Juan Martin Del Potro": {
+        "player1": "Roger Federer",
+        "player2": "Juan Martin Del Potro",
+        "winner": "Roger Federer",
+        "result": "6-4 6-3 6-2"
+      },
+      "Rafael Nadal vs Tomas Berdych": {
+        "player1": "Rafael Nadal",
+        "player2": "Tomas Berdych",
+        "winner": "Rafael Nadal",
+        "result": "6-7(5) 7-6(6) 6-4 6-3"
+      }
+    }
+  },
+  "2013Final": {
+    "winner": [
+      63,
+      75,
+      209,
+      27,
+      61
+    ],
+    "loser": [
+      60,
+      81,
+      211,
+      0,
+      46
+    ],
+    "data": {
+      "Novak Djokovic vs Andy Murray": {
+        "player1": "Novak Djokovic",
+        "player2": "Andy Murray",
+        "winner": "Novak Djokovic",
+        "result": "6-7(2) 7-6(3) 6-3 6-2"
+      }
+    }
+  },
+  "2013semi": {
+    "winner": [
+      127,
+      166,
+      418,
+      138,
+      63
+    ],
+    "loser": [
+      121,
+      129,
+      402,
+      33,
+      92
+    ],
+    "data": {
+      "Andy Murray vs Roger Federer": {
+        "player1": "Andy Murray",
+        "player2": "Roger Federer",
+        "winner": "Andy Murray",
+        "result": "6-4 6-7(5) 6-3 6-7(2) 6-2"
+      },
+      "Novak Djokovic vs David Ferrer": {
+        "player1": "Novak Djokovic",
+        "player2": "David Ferrer",
+        "winner": "Novak Djokovic",
+        "result": "6-2 6-2 6-1"
+      }
+    }
+  },
+  "2013quarter": {
+    "winner": [
+      265,
+      307,
+      807,
+      176,
+      143
+    ],
+    "loser": [
+      242,
+      274,
+      865,
+      179,
+      209
+    ],
+    "data": {
+      "Andy Murray vs Jeremy Chardy": {
+        "player1": "Andy Murray",
+        "player2": "Jeremy Chardy",
+        "winner": "Andy Murray",
+        "result": "6-4 6-1 6-2"
+      },
+      "Roger Federer vs Jo-Wilfried Tsonga": {
+        "player1": "Roger Federer",
+        "player2": "Jo-Wilfried Tsonga",
+        "winner": "Roger Federer",
+        "result": "7-6(4) 4-6 7-6(4) 3-6 6-3"
+      },
+      "Novak Djokovic vs Tomas Berdych": {
+        "player1": "Novak Djokovic",
+        "player2": "Tomas Berdych",
+        "winner": "Novak Djokovic",
+        "result": "6-1 4-6 6-1 6-4"
+      },
+      "David Ferrer vs Nicolas Almagro": {
+        "player1": "David Ferrer",
+        "player2": "Nicolas Almagro",
+        "winner": "David Ferrer",
+        "result": "4-6 4-6 7-5 7-6(4) 6-2"
+      }
+    }
+  },
+  "2004Final": {
+    "winner": [
+      53,
+      75,
+      201,
+      28,
+      28
+    ],
+    "loser": [
+      49,
+      63,
+      209,
+      67,
+      41
+    ],
+    "data": {
+      "Roger Federer vs Marat Safin": {
+        "player1": "Roger Federer",
+        "player2": "Marat Safin",
+        "winner": "Roger Federer",
+        "result": "7-6(3) 6-4 6-2"
+      }
+    }
+  },
+  "2004semi": {
+    "winner": [
+      127,
+      160,
+      406,
+      96,
+      70
+    ],
+    "loser": [
+      117,
+      142,
+      393,
+      50,
+      52
+    ],
+    "data": {
+      "Roger Federer vs Juan Carlos Ferrero": {
+        "player1": "Roger Federer",
+        "player2": "Juan Carlos Ferrero",
+        "winner": "Roger Federer",
+        "result": "6-4 6-1 6-4"
+      },
+      "Marat Safin vs Andre Agassi": {
+        "player1": "Marat Safin",
+        "player2": "Andre Agassi",
+        "winner": "Marat Safin",
+        "result": "7-6(6) 7-6(6) 5-7 1-6 6-3"
+      }
+    }
+  },
+  "2004quarter": {
+    "winner": [
+      235,
+      306,
+      813,
+      152,
+      167
+    ],
+    "loser": [
+      247,
+      282,
+      824,
+      113,
+      162
+    ],
+    "data": {
+      "Juan Carlos Ferrero vs Hicham Arazi": {
+        "player1": "Juan Carlos Ferrero",
+        "player2": "Hicham Arazi",
+        "winner": "Juan Carlos Ferrero",
+        "result": "6-1 7-6(6) 7-6(5)"
+      },
+      "Roger Federer vs David Nalbandian": {
+        "player1": "Roger Federer",
+        "player2": "David Nalbandian",
+        "winner": "Roger Federer",
+        "result": "7-5 6-4 5-7 6-3"
+      },
+      "Andre Agassi vs Sebastien Grosjean": {
+        "player1": "Andre Agassi",
+        "player2": "Sebastien Grosjean",
+        "winner": "Andre Agassi",
+        "result": "6-2 2-0 ret."
+      },
+      "Marat Safin vs Andy Roddick": {
+        "player1": "Marat Safin",
+        "player2": "Andy Roddick",
+        "winner": "Marat Safin",
+        "result": "2-6 6-3 7-5 6-7(0) 6-4"
+      }
+    }
+  },
+  "2005Final": {
+    "winner": [
+      60,
+      73,
+      215,
+      36,
+      36
+    ],
+    "loser": [
+      49,
+      70,
+      202,
+      38,
+      22
+    ],
+    "data": {
+      "Marat Safin vs Lleyton Hewitt": {
+        "player1": "Marat Safin",
+        "player2": "Lleyton Hewitt",
+        "winner": "Marat Safin",
+        "result": "1-6 6-3 6-4 6-4"
+      }
+    }
+  },
+  "2005semi": {
+    "winner": [
+      121,
+      157,
+      422,
+      56,
+      81
+    ],
+    "loser": [
+      113,
+      163,
+      444,
+      54,
+      109
+    ],
+    "data": {
+      "Lleyton Hewitt vs Andy Roddick": {
+        "player1": "Lleyton Hewitt",
+        "player2": "Andy Roddick",
+        "winner": "Lleyton Hewitt",
+        "result": "3-6 7-6(3) 7-6(4) 6-1"
+      },
+      "Marat Safin vs Roger Federer": {
+        "player1": "Marat Safin",
+        "player2": "Roger Federer",
+        "winner": "Marat Safin",
+        "result": "5-7 6-4 5-7 7-6(6) 9-7"
+      }
+    }
+  },
+  "2005quarter": {
+    "winner": [
+      231,
+      317,
+      874,
+      219,
+      124
+    ],
+    "loser": [
+      220,
+      274,
+      815,
+      95,
+      140
+    ],
+    "data": {
+      "Lleyton Hewitt vs David Nalbandian": {
+        "player1": "Lleyton Hewitt",
+        "player2": "David Nalbandian",
+        "winner": "Lleyton Hewitt",
+        "result": "6-3 6-2 1-6 3-6 10-8"
+      },
+      "Andy Roddick vs Nikolay Davydenko": {
+        "player1": "Andy Roddick",
+        "player2": "Nikolay Davydenko",
+        "winner": "Andy Roddick",
+        "result": "6-3 7-5 4-1 ret."
+      },
+      "Roger Federer vs Andre Agassi": {
+        "player1": "Roger Federer",
+        "player2": "Andre Agassi",
+        "winner": "Roger Federer",
+        "result": "6-3 6-4 6-4"
+      },
+      "Marat Safin vs Dominik Hrbaty": {
+        "player1": "Marat Safin",
+        "player2": "Dominik Hrbaty",
+        "winner": "Marat Safin",
+        "result": "6-2 6-4 6-2"
+      }
+    }
+  },
+  "2006Final": {
+    "winner": [
+      53,
+      71,
+      209,
+      67,
+      48
+    ],
+    "loser": [
+      48,
+      71,
+      217,
+      30,
+      48
+    ],
+    "data": {
+      "Roger Federer vs Marcos Baghdatis": {
+        "player1": "Roger Federer",
+        "player2": "Marcos Baghdatis",
+        "winner": "Roger Federer",
+        "result": "5-7 7-5 6-0 6-2"
+      }
+    }
+  },
+  "2006semi": {
+    "winner": [
+      122,
+      141,
+      423,
+      94,
+      74
+    ],
+    "loser": [
+      118,
+      134,
+      415,
+      66,
+      109
+    ],
+    "data": {
+      "Roger Federer vs Nicolas Kiefer": {
+        "player1": "Roger Federer",
+        "player2": "Nicolas Kiefer",
+        "winner": "Roger Federer",
+        "result": "6-3 5-7 6-0 6-2"
+      },
+      "Marcos Baghdatis vs David Nalbandian": {
+        "player1": "Marcos Baghdatis",
+        "player2": "David Nalbandian",
+        "winner": "Marcos Baghdatis",
+        "result": "3-6 5-7 6-3 6-4 6-4"
+      }
+    }
+  },
+  "2006quarter": {
+    "winner": [
+      221,
+      290,
+      834,
+      176,
+      162
+    ],
+    "loser": [
+      253,
+      264,
+      838,
+      174,
+      175
+    ],
+    "data": {
+      "Roger Federer vs Nikolay Davydenko": {
+        "player1": "Roger Federer",
+        "player2": "Nikolay Davydenko",
+        "winner": "Roger Federer",
+        "result": "6-4 3-6 7-6(7) 7-6(5)"
+      },
+      "Nicolas Kiefer vs Sebastien Grosjean": {
+        "player1": "Nicolas Kiefer",
+        "player2": "Sebastien Grosjean",
+        "winner": "Nicolas Kiefer",
+        "result": "6-3 0-6 6-4 6-7(1) 8-6"
+      },
+      "David Nalbandian vs Fabrice Santoro": {
+        "player1": "David Nalbandian",
+        "player2": "Fabrice Santoro",
+        "winner": "David Nalbandian",
+        "result": "7-5 6-0 6-0"
+      },
+      "Marcos Baghdatis vs Ivan Ljubicic": {
+        "player1": "Marcos Baghdatis",
+        "player2": "Ivan Ljubicic",
+        "winner": "Marcos Baghdatis",
+        "result": "6-4 6-2 4-6 3-6 6-3"
+      }
+    }
+  },
+  "2007Final": {
+    "winner": [
+      58,
+      82,
+      0,
+      30,
+      19
+    ],
+    "loser": [
+      61,
+      69,
+      0,
+      100,
+      28
+    ],
+    "data": {
+      "Roger Federer vs Fernando Gonzalez": {
+        "player1": "Roger Federer",
+        "player2": "Fernando Gonzalez",
+        "winner": "Roger Federer",
+        "result": "7-6(2) 6-4 6-4"
+      }
+    }
+  },
+  "2007semi": {
+    "winner": [
+      114,
+      168,
+      0,
+      158,
+      15
+    ],
+    "loser": [
+      123,
+      117,
+      0,
+      100,
+      39
+    ],
+    "data": {
+      "Fernando Gonzalez vs Tommy Haas": {
+        "player1": "Fernando Gonzalez",
+        "player2": "Tommy Haas",
+        "winner": "Fernando Gonzalez",
+        "result": "6-1 6-3 6-1"
+      },
+      "Roger Federer vs Andy Roddick": {
+        "player1": "Roger Federer",
+        "player2": "Andy Roddick",
+        "winner": "Roger Federer",
+        "result": "6-4 6-0 6-2"
+      }
+    }
+  },
+  "2007quarter": {
+    "winner": [
+      250,
+      306,
+      0,
+      205,
+      94
+    ],
+    "loser": [
+      246,
+      260,
+      0,
+      210,
+      108
+    ],
+    "data": {
+      "Tommy Haas vs Nikolay Davydenko": {
+        "player1": "Tommy Haas",
+        "player2": "Nikolay Davydenko",
+        "winner": "Tommy Haas",
+        "result": "6-3 2-6 1-6 6-1 7-5"
+      },
+      "Fernando Gonzalez vs Rafael Nadal": {
+        "player1": "Fernando Gonzalez",
+        "player2": "Rafael Nadal",
+        "winner": "Fernando Gonzalez",
+        "result": "6-2 6-4 6-3"
+      },
+      "Roger Federer vs Tommy Robredo": {
+        "player1": "Roger Federer",
+        "player2": "Tommy Robredo",
+        "winner": "Roger Federer",
+        "result": "6-3 7-6(2) 7-5"
+      },
+      "Andy Roddick vs Mardy Fish": {
+        "player1": "Andy Roddick",
+        "player2": "Mardy Fish",
+        "winner": "Andy Roddick",
+        "result": "6-2 6-2 6-2"
+      }
+    }
+  },
+  "2008Final": {
+    "winner": [
+      56,
+      78,
+      209,
+      33,
+      35
+    ],
+    "loser": [
+      71,
+      71,
+      218,
+      40,
+      41
+    ],
+    "data": {
+      "Novak Djokovic vs Jo-Wilfried Tsonga": {
+        "player1": "Novak Djokovic",
+        "player2": "Jo-Wilfried Tsonga",
+        "winner": "Novak Djokovic",
+        "result": "4-6 6-4 6-3 7-6(2)"
+      }
+    }
+  },
+  "2008semi": {
+    "winner": [
+      132,
+      164,
+      429,
+      107,
+      59
+    ],
+    "loser": [
+      130,
+      128,
+      404,
+      22,
+      44
+    ],
+    "data": {
+      "Novak Djokovic vs Roger Federer": {
+        "player1": "Novak Djokovic",
+        "player2": "Roger Federer",
+        "winner": "Novak Djokovic",
+        "result": "7-5 6-3 7-6(5)"
+      },
+      "Jo-Wilfried Tsonga vs Rafael Nadal": {
+        "player1": "Jo-Wilfried Tsonga",
+        "player2": "Rafael Nadal",
+        "winner": "Jo-Wilfried Tsonga",
+        "result": "6-2 6-3 6-2"
+      }
+    }
+  },
+  "2008quarter": {
+    "winner": [
+      253,
+      318,
+      834,
+      217,
+      111
+    ],
+    "loser": [
+      256,
+      259,
+      812,
+      124,
+      127
+    ],
+    "data": {
+      "Novak Djokovic vs David Ferrer": {
+        "player1": "Novak Djokovic",
+        "player2": "David Ferrer",
+        "winner": "Novak Djokovic",
+        "result": "6-0 6-3 7-5"
+      },
+      "Roger Federer vs James Blake": {
+        "player1": "Roger Federer",
+        "player2": "James Blake",
+        "winner": "Roger Federer",
+        "result": "7-5 7-6(5) 6-4"
+      },
+      "Jo-Wilfried Tsonga vs Mikhail Youzhny": {
+        "player1": "Jo-Wilfried Tsonga",
+        "player2": "Mikhail Youzhny",
+        "winner": "Jo-Wilfried Tsonga",
+        "result": "7-5 6-0 7-6(6)"
+      },
+      "Rafael Nadal vs Jarkko Nieminen": {
+        "player1": "Rafael Nadal",
+        "player2": "Jarkko Nieminen",
+        "winner": "Rafael Nadal",
+        "result": "7-5 6-3 6-1"
+      }
+    }
+  },
+  "2014Final": {
+    "winner": [
+      55,
+      87,
+      217,
+      33,
+      49
+    ],
+    "loser": [
+      78,
+      60,
+      200,
+      33,
+      32
+    ],
+    "data": {
+      "Stanislas Wawrinka vs Rafael Nadal": {
+        "player1": "Stanislas Wawrinka",
+        "player2": "Rafael Nadal",
+        "winner": "Stanislas Wawrinka",
+        "result": "6-3 6-2 3-6 6-3"
+      }
+    }
+  },
+  "2014semi": {
+    "winner": [
+      126,
+      155,
+      415,
+      54,
+      74
+    ],
+    "loser": [
+      128,
+      147,
+      419,
+      50,
+      99
+    ],
+    "data": {
+      "Rafael Nadal vs Roger Federer": {
+        "player1": "Rafael Nadal",
+        "player2": "Roger Federer",
+        "winner": "Rafael Nadal",
+        "result": "7-6(4) 6-3 6-3"
+      },
+      "Stanislas Wawrinka vs Tomas Berdych": {
+        "player1": "Stanislas Wawrinka",
+        "player2": "Tomas Berdych",
+        "winner": "Stanislas Wawrinka",
+        "result": "6-3 6-7(1) 7-6(3) 7-6(4)"
+      }
+    }
+  },
+  "2014quarter": {
+    "winner": [
+      247,
+      301,
+      841,
+      148,
+      211
+    ],
+    "loser": [
+      253,
+      273,
+      815,
+      182,
+      213
+    ],
+    "data": {
+      "Rafael Nadal vs Grigor Dimitrov": {
+        "player1": "Rafael Nadal",
+        "player2": "Grigor Dimitrov",
+        "winner": "Rafael Nadal",
+        "result": "3-6 7-6(3) 7-6(7) 6-2"
+      },
+      "Roger Federer vs Andy Murray": {
+        "player1": "Roger Federer",
+        "player2": "Andy Murray",
+        "winner": "Roger Federer",
+        "result": "6-3 6-4 6-7(6) 6-3"
+      },
+      "Stanislas Wawrinka vs Novak Djokovic": {
+        "player1": "Stanislas Wawrinka",
+        "player2": "Novak Djokovic",
+        "winner": "Stanislas Wawrinka",
+        "result": "2-6 6-4 6-2 3-6 9-7"
+      },
+      "Tomas Berdych vs David Ferrer": {
+        "player1": "Tomas Berdych",
+        "player2": "David Ferrer",
+        "winner": "Tomas Berdych",
+        "result": "6-1 6-4 2-6 6-4"
+      }
+    }
+  }
+}

@@ -59,7 +59,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
         this.ang_answers = JSON.parse(data);
         this.selected_topic = topic;
       }else{
-        this.selected_topic = null;
+        this.selected_topic = undefined;
         this.ang_answers = [];
       }
     }
@@ -135,10 +135,10 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
       svg.style("background", "rgb(250, 250, 250)").on("click", function() {zoom(root);});
       zoomTo([root.x, root.y, root.r * 2 + margin]);
 
-      console.log(this.bubbleDiv);
-      this.bubbleDiv.nativeElement.scrollIntoView();
+
 
       function tree_info_graph(data){
+
         var graph = JSON.parse(data);
         var svg = d3.select("#network"),
           width = +svg.attr("width"),
@@ -288,6 +288,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
 
 
       function zoom(d) {
+
           window.my.namespace.publicFunc(true, data, d.data.name);
           var focus0 = focus; focus = d;
           console.log(d);
@@ -297,7 +298,11 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
               url: 'http://localhost:5000/get_network?key='+d.data.name,
               type: "GET",
               success: function(data){
-                tree_info_graph(data);
+                setTimeout(() => {
+                    tree_info_graph(data);
+                  },
+                  1000);
+
               },
               error: function(error){
               }
@@ -307,7 +312,10 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
               url: 'http://localhost:5000/get_word_cloud?key='+d.data.name,
               type: "GET",
               success: function(data){
-                word_cloud_info_graph(data);
+                setTimeout(() => {
+                    word_cloud_info_graph(data);
+                  },
+                  1000);
               },
               error: function(error){
               }
@@ -325,6 +333,7 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
             });
             return;
           }
+
           var transition = d3.transition()
             .duration(d3.event.altKey ? 7500 : 750)
             .tween("zoom", function(d) {
@@ -434,14 +443,17 @@ export class HomeComponent implements OnInit, OnDestroy, AfterViewInit{
     }
 
       getDisease(part){
-        this.selected_part = part;
+        this.selected_part = undefined;
         this.restService.get_diseases(part, '', '')
           .pipe(first())
           .subscribe(
             data => {
-              console.log(data);
-              this.map_info_graph();
-              this.zoom_bubble_info(data);
+              this.selected_part = part;
+              setTimeout(() => {
+                  this.map_info_graph();
+                  this.zoom_bubble_info(data);
+              },
+                1000);
             },
             error => {
             });
